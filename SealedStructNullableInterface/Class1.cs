@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SealedStructNullableInterface
 {
-    internal class Class1
+    internal struct  Class1
     {
+        public int MyProperty { get; set; }
     }
 }

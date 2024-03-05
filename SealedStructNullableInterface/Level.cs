@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace SealedStructNullableInterface
 {
-    internal class Author
+    internal enum Level
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        
+        Low,
+        Medium,
+        High
     }
 }

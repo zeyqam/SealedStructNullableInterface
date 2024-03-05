@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SealedStructNullableInterface
 {
-    internal class Book
+    internal  sealed class Book
     {
+        public int ?Id { get; set; }
+        public string Name { get; set; }
+        public Author Author { get; set; }
     }
 }
